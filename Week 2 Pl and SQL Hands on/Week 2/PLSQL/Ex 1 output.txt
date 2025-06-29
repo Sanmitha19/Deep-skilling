@@ -1,0 +1,30 @@
+
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.015
+
+
+Table LOANS created.
+
+Elapsed: 00:00:00.027
+
+
+Commit complete.
+
+Elapsed: 00:00:00.000
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.087
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.010
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.020

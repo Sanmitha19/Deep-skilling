@@ -1,0 +1,105 @@
+
+
+Table ACCOUNTS created.
+
+Elapsed: 00:00:00.013
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.014
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+3/5       PL/SQL: SQL Statement ignored
+3/12      PL/SQL: ORA-00942: table or view does not exist
+Errors: check compiler log
+Elapsed: 00:00:00.010
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+6/5       PL/SQL: SQL Statement ignored
+6/12      PL/SQL: ORA-00942: table or view does not exist
+Errors: check compiler log
+Elapsed: 00:00:00.008
+
+
+Table SAVINGS_ACCOUNTS created.
+
+Elapsed: 00:00:00.013
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+Elapsed: 00:00:00.018
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+6/5       PL/SQL: SQL Statement ignored
+6/12      PL/SQL: ORA-00942: table or view does not exist
+Errors: check compiler log
+Elapsed: 00:00:00.010
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+6/5       PL/SQL: SQL Statement ignored
+6/12      PL/SQL: ORA-00942: table or view does not exist
+Errors: check compiler log
+Elapsed: 00:00:00.018
+
+
+Table EMPLOYEES created.
+
+Elapsed: 00:00:00.017
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+Elapsed: 00:00:00.024
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.086
+
+
+Procedure TRANSFERFUNDS compiled
+
+Elapsed: 00:00:00.024
+
+BEGIN TransferFunds(1001, 1002, 1000); END;
+*
+ERROR at line 1:
+ORA-01403: no data found
+ORA-06512: at "SQL_4CZU6KDVXAC4YKDK0J25IBCXQY.TRANSFERFUNDS", line 9
+ORA-06512: at line 1
+
+https://docs.oracle.com/error-help/db/ora-01403/
+
+
+More Details :
+https://docs.oracle.com/error-help/db/ora-01403/
+https://docs.oracle.com/error-help/db/ora-06512/
+Elapsed: 00:00:00.016
