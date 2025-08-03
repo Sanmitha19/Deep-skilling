@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.light-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.dark-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
